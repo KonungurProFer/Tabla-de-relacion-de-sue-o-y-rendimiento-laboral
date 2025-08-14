@@ -24,8 +24,6 @@ plt.ylabel("Horas de sueño", labelpad=30, rotation=0)
 plt.xlabel("Rendimiento laboral (1-10)")
 plt.xticks(rendimiento, rotation= 0)
 
-
-
 # Ajuste de diseño
 plt.subplots_adjust(left=0.2)
 
@@ -33,4 +31,5 @@ plt.subplots_adjust(left=0.2)
 plt.grid(True, linestyle="--", alpha=0.5)
 
 # Mostrar gráfico
+
 plt.show()
